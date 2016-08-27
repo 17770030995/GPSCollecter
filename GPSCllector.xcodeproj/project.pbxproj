@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4106EF01D712CB7008F1F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106EEF1D712CB7008F1F31 /* main.m */; };
+		B4106EF31D712CB7008F1F31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106EF21D712CB7008F1F31 /* AppDelegate.m */; };
+		B4106EF61D712CB7008F1F31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106EF51D712CB7008F1F31 /* ViewController.m */; };
+		B4106EF91D712CB7008F1F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4106EF71D712CB7008F1F31 /* Main.storyboard */; };
+		B4106EFB1D712CB7008F1F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4106EFA1D712CB7008F1F31 /* Assets.xcassets */; };
+		B4106EFE1D712CB7008F1F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4106EFC1D712CB7008F1F31 /* LaunchScreen.storyboard */; };
+		B4106F091D712CB7008F1F31 /* GPSCllectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106F081D712CB7008F1F31 /* GPSCllectorTests.m */; };
+		B4106F141D712CB7008F1F31 /* GPSCllectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106F131D712CB7008F1F31 /* GPSCllectorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4106F051D712CB7008F1F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4106EE31D712CB7008F1F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4106EEA1D712CB7008F1F31;
+			remoteInfo = GPSCllector;
+		};
+		B4106F101D712CB7008F1F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4106EE31D712CB7008F1F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4106EEA1D712CB7008F1F31;
+			remoteInfo = GPSCllector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4106EEB1D712CB7008F1F31 /* GPSCllector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSCllector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4106EEF1D712CB7008F1F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4106EF11D712CB7008F1F31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4106EF21D712CB7008F1F31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4106EF41D712CB7008F1F31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4106EF51D712CB7008F1F31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4106EF81D712CB7008F1F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4106EFA1D712CB7008F1F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4106EFD1D712CB7008F1F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4106EFF1D712CB7008F1F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4106F041D712CB7008F1F31 /* GPSCllectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSCllectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4106F081D712CB7008F1F31 /* GPSCllectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSCllectorTests.m; sourceTree = "<group>"; };
+		B4106F0A1D712CB7008F1F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4106F0F1D712CB7008F1F31 /* GPSCllectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSCllectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4106F131D712CB7008F1F31 /* GPSCllectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSCllectorUITests.m; sourceTree = "<group>"; };
+		B4106F151D712CB7008F1F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4106EE81D712CB7008F1F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4106F011D712CB7008F1F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4106F0C1D712CB7008F1F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4106EE21D712CB7008F1F31 = {
+			isa = PBXGroup;
+			children = (
+				B4106EED1D712CB7008F1F31 /* GPSCllector */,
+				B4106F071D712CB7008F1F31 /* GPSCllectorTests */,
+				B4106F121D712CB7008F1F31 /* GPSCllectorUITests */,
+				B4106EEC1D712CB7008F1F31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4106EEC1D712CB7008F1F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4106EEB1D712CB7008F1F31 /* GPSCllector.app */,
+				B4106F041D712CB7008F1F31 /* GPSCllectorTests.xctest */,
+				B4106F0F1D712CB7008F1F31 /* GPSCllectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4106EED1D712CB7008F1F31 /* GPSCllector */ = {
+			isa = PBXGroup;
+			children = (
+				B4106EF11D712CB7008F1F31 /* AppDelegate.h */,
+				B4106EF21D712CB7008F1F31 /* AppDelegate.m */,
+				B4106EF41D712CB7008F1F31 /* ViewController.h */,
+				B4106EF51D712CB7008F1F31 /* ViewController.m */,
+				B4106EF71D712CB7008F1F31 /* Main.storyboard */,
+				B4106EFA1D712CB7008F1F31 /* Assets.xcassets */,
+				B4106EFC1D712CB7008F1F31 /* LaunchScreen.storyboard */,
+				B4106EFF1D712CB7008F1F31 /* Info.plist */,
+				B4106EEE1D712CB7008F1F31 /* Supporting Files */,
+			);
+			path = GPSCllector;
+			sourceTree = "<group>";
+		};
+		B4106EEE1D712CB7008F1F31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4106EEF1D712CB7008F1F31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4106F071D712CB7008F1F31 /* GPSCllectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4106F081D712CB7008F1F31 /* GPSCllectorTests.m */,
+				B4106F0A1D712CB7008F1F31 /* Info.plist */,
+			);
+			path = GPSCllectorTests;
+			sourceTree = "<group>";
+		};
+		B4106F121D712CB7008F1F31 /* GPSCllectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4106F131D712CB7008F1F31 /* GPSCllectorUITests.m */,
+				B4106F151D712CB7008F1F31 /* Info.plist */,
+			);
+			path = GPSCllectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4106EEA1D712CB7008F1F31 /* GPSCllector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4106F181D712CB7008F1F31 /* Build configuration list for PBXNativeTarget "GPSCllector" */;
+			buildPhases = (
+				B4106EE71D712CB7008F1F31 /* Sources */,
+				B4106EE81D712CB7008F1F31 /* Frameworks */,
+				B4106EE91D712CB7008F1F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSCllector;
+			productName = GPSCllector;
+			productReference = B4106EEB1D712CB7008F1F31 /* GPSCllector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4106F031D712CB7008F1F31 /* GPSCllectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4106F1B1D712CB7008F1F31 /* Build configuration list for PBXNativeTarget "GPSCllectorTests" */;
+			buildPhases = (
+				B4106F001D712CB7008F1F31 /* Sources */,
+				B4106F011D712CB7008F1F31 /* Frameworks */,
+				B4106F021D712CB7008F1F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4106F061D712CB7008F1F31 /* PBXTargetDependency */,
+			);
+			name = GPSCllectorTests;
+			productName = GPSCllectorTests;
+			productReference = B4106F041D712CB7008F1F31 /* GPSCllectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4106F0E1D712CB7008F1F31 /* GPSCllectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4106F1E1D712CB7008F1F31 /* Build configuration list for PBXNativeTarget "GPSCllectorUITests" */;
+			buildPhases = (
+				B4106F0B1D712CB7008F1F31 /* Sources */,
+				B4106F0C1D712CB7008F1F31 /* Frameworks */,
+				B4106F0D1D712CB7008F1F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4106F111D712CB7008F1F31 /* PBXTargetDependency */,
+			);
+			name = GPSCllectorUITests;
+			productName = GPSCllectorUITests;
+			productReference = B4106F0F1D712CB7008F1F31 /* GPSCllectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4106EE31D712CB7008F1F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LCR;
+				TargetAttributes = {
+					B4106EEA1D712CB7008F1F31 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B4106F031D712CB7008F1F31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B4106EEA1D712CB7008F1F31;
+					};
+					B4106F0E1D712CB7008F1F31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B4106EEA1D712CB7008F1F31;
+					};
+				};
+			};
+			buildConfigurationList = B4106EE61D712CB7008F1F31 /* Build configuration list for PBXProject "GPSCllector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4106EE21D712CB7008F1F31;
+			productRefGroup = B4106EEC1D712CB7008F1F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4106EEA1D712CB7008F1F31 /* GPSCllector */,
+				B4106F031D712CB7008F1F31 /* GPSCllectorTests */,
+				B4106F0E1D712CB7008F1F31 /* GPSCllectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4106EE91D712CB7008F1F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4106EFE1D712CB7008F1F31 /* LaunchScreen.storyboard in Resources */,
+				B4106EFB1D712CB7008F1F31 /* Assets.xcassets in Resources */,
+				B4106EF91D712CB7008F1F31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4106F021D712CB7008F1F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4106F0D1D712CB7008F1F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4106EE71D712CB7008F1F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4106EF61D712CB7008F1F31 /* ViewController.m in Sources */,
+				B4106EF31D712CB7008F1F31 /* AppDelegate.m in Sources */,
+				B4106EF01D712CB7008F1F31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4106F001D712CB7008F1F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4106F091D712CB7008F1F31 /* GPSCllectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4106F0B1D712CB7008F1F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4106F141D712CB7008F1F31 /* GPSCllectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4106F061D712CB7008F1F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4106EEA1D712CB7008F1F31 /* GPSCllector */;
+			targetProxy = B4106F051D712CB7008F1F31 /* PBXContainerItemProxy */;
+		};
+		B4106F111D712CB7008F1F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4106EEA1D712CB7008F1F31 /* GPSCllector */;
+			targetProxy = B4106F101D712CB7008F1F31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4106EF71D712CB7008F1F31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4106EF81D712CB7008F1F31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4106EFC1D712CB7008F1F31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4106EFD1D712CB7008F1F31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4106F161D712CB7008F1F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4106F171D712CB7008F1F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4106F191D712CB7008F1F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSCllector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapSoft.GPSCllector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4106F1A1D712CB7008F1F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSCllector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapSoft.GPSCllector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4106F1C1D712CB7008F1F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPSCllectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapSoft.GPSCllectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSCllector.app/GPSCllector";
+			};
+			name = Debug;
+		};
+		B4106F1D1D712CB7008F1F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPSCllectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapSoft.GPSCllectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSCllector.app/GPSCllector";
+			};
+			name = Release;
+		};
+		B4106F1F1D712CB7008F1F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPSCllectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapSoft.GPSCllectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPSCllector;
+			};
+			name = Debug;
+		};
+		B4106F201D712CB7008F1F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPSCllectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapSoft.GPSCllectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPSCllector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4106EE61D712CB7008F1F31 /* Build configuration list for PBXProject "GPSCllector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4106F161D712CB7008F1F31 /* Debug */,
+				B4106F171D712CB7008F1F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4106F181D712CB7008F1F31 /* Build configuration list for PBXNativeTarget "GPSCllector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4106F191D712CB7008F1F31 /* Debug */,
+				B4106F1A1D712CB7008F1F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4106F1B1D712CB7008F1F31 /* Build configuration list for PBXNativeTarget "GPSCllectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4106F1C1D712CB7008F1F31 /* Debug */,
+				B4106F1D1D712CB7008F1F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4106F1E1D712CB7008F1F31 /* Build configuration list for PBXNativeTarget "GPSCllectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4106F1F1D712CB7008F1F31 /* Debug */,
+				B4106F201D712CB7008F1F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4106EE31D712CB7008F1F31 /* Project object */;
+}
