@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AFNetworking.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[AFNetworkReachabilityManager sharedManager]startMonitoring];//监听网络
+    [[AFNetworkReachabilityManager sharedManager]setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        //  未知网络
+        if (status == -1 || status == 0) {
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"网络连接失败,请检查网络是否正常" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *action = [UIAlertAction actionWithTitle:@"返回" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+                [alert dismissViewControllerAnimated:YES completion:nil];
+            }];
+            [alert addAction:action];
+            [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+        }
+    }];
     return YES;
 }
 
