@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "AddLineViewController.h"
-#import "MaintainOrderViewController.h"
 #import <CoreLocation/CoreLocation.h>
 #import "StopCell.h"
 #import <MessageUI/MessageUI.h>
@@ -369,7 +368,6 @@
     [mainView.lineListBtn addTarget:self action:@selector(toLineList) forControlEvents:UIControlEventTouchUpInside];
     [mainView.addLineBtn addTarget:self action:@selector(addLineAndStops) forControlEvents:UIControlEventTouchUpInside];
     [mainView.changeBtn addTarget:self action:@selector(changeDirection) forControlEvents:UIControlEventTouchUpInside];
-    [mainView.loginBtn addTarget:self action:@selector(toMaintainOrder) forControlEvents:UIControlEventTouchUpInside];
     [_addLineBtn addTarget:self action:@selector(addLine) forControlEvents:UIControlEventTouchUpInside];
     [_cancelAddBtn addTarget:self action:@selector(cancelAddLine) forControlEvents:UIControlEventTouchUpInside];
     [_sureAddBtn addTarget:self action:@selector(makesureAddLine) forControlEvents:UIControlEventTouchUpInside];
@@ -690,14 +688,6 @@
     [_textField resignFirstResponder];
     lineAddView.hidden = YES;
 }
-
-
--(void)toMaintainOrder
-{
-    MaintainOrderViewController *vc = [[MaintainOrderViewController alloc]init];
-    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:nil];
-}
-
 
 //添加悬浮窗口
 -(void)addCoverViews

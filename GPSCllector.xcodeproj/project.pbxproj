@@ -20,32 +20,6 @@
 		B4106F281D712E72008F1F31 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106F271D712E72008F1F31 /* MainView.m */; };
 		B4106F2B1D7130D9008F1F31 /* MainTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106F2A1D7130D9008F1F31 /* MainTextField.m */; };
 		B4106F2F1D717288008F1F31 /* AddLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106F2E1D717288008F1F31 /* AddLineView.m */; };
-		B414889D1F9DC375003A6979 /* ConnectDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = B414889C1F9DC375003A6979 /* ConnectDataView.m */; };
-		B41488A01F9DC38B003A6979 /* AddDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B414889F1F9DC38B003A6979 /* AddDeviceView.m */; };
-		B41488A31F9E013D003A6979 /* AddDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B41488A21F9E013D003A6979 /* AddDeviceCell.m */; };
-		B43853D21F68FBDE00894663 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43853D11F68FBDE00894663 /* RecordViewController.m */; };
-		B43853D51F68FBF100894663 /* RecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43853D41F68FBF100894663 /* RecordView.m */; };
-		B43853D81F68FE2B00894663 /* RecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B43853D71F68FE2B00894663 /* RecordCell.m */; };
-		B469B39D1F78CC4600E56CCB /* AddDeviceDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = B469B39C1F78CC4600E56CCB /* AddDeviceDataView.m */; };
-		B469B3A11F78CFA600E56CCB /* TRRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B469B3A01F78CFA600E56CCB /* TRRequestTool.m */; };
-		B46E76DB1F9D8A1800096BB8 /* AddOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46E76DA1F9D8A1800096BB8 /* AddOrderViewController.m */; };
-		B46E76DE1F9D8A4000096BB8 /* AddOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46E76DD1F9D8A4000096BB8 /* AddOrderView.m */; };
-		B48F46781F58F05800A05B77 /* CodeDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F46771F58F05800A05B77 /* CodeDataView.m */; };
-		B49DCD651F987A500086EE67 /* RecordProCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B49DCD641F987A500086EE67 /* RecordProCell.m */; };
-		B4A0614A1F579A0D003DF71B /* OrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A061491F579A0D003DF71B /* OrderView.m */; };
-		B4A0614D1F57A1D7003DF71B /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A0614C1F57A1D7003DF71B /* LoginView.m */; };
-		B4A061511F57B8BA003DF71B /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A061501F57B8BA003DF71B /* NSString+Hashing.m */; };
-		B4A061541F57D9A3003DF71B /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A061531F57D9A3003DF71B /* OrderCell.m */; };
-		B4A061571F57E64B003DF71B /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A061561F57E64B003DF71B /* UILabel+Extension.m */; };
-		B4A0615B1F57FAF9003DF71B /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A0615A1F57FAF9003DF71B /* RedView.m */; };
-		B4A0615E1F57FB2A003DF71B /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A0615D1F57FB2A003DF71B /* CodeViewController.m */; };
-		B4BC9B221F71069000B76DA5 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BC9B211F71069000B76DA5 /* ProductsViewController.m */; };
-		B4BC9B251F7106BA00B76DA5 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BC9B241F7106BA00B76DA5 /* ProductCell.m */; };
-		B4E5CF271F90850F00B0A871 /* MaintainOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A061461F5799F7003DF71B /* MaintainOrderViewController.m */; };
-		B4E5CF2A1F90853800B0A871 /* XHDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E5CF221F90653A00B0A871 /* XHDatePickerView.m */; };
-		B4E5CF2B1F90856F00B0A871 /* XHDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E5CF241F90653A00B0A871 /* XHDatePickerView.xib */; };
-		B4E5CF2C1F90857900B0A871 /* NSDate+XHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E5CF231F90653A00B0A871 /* NSDate+XHExtension.m */; };
-		B4E5CF2F1F909B0100B0A871 /* OrderRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E5CF2E1F909B0100B0A871 /* OrderRecordCell.m */; };
 		B4F1C12C1D7512E400CD7B0C /* StopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F1C12B1D7512E400CD7B0C /* StopCell.m */; };
 /* End PBXBuildFile section */
 
@@ -93,57 +67,6 @@
 		B4106F2C1D71314C008F1F31 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B4106F2D1D717288008F1F31 /* AddLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLineView.h; sourceTree = "<group>"; };
 		B4106F2E1D717288008F1F31 /* AddLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLineView.m; sourceTree = "<group>"; };
-		B414889B1F9DC375003A6979 /* ConnectDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectDataView.h; sourceTree = "<group>"; };
-		B414889C1F9DC375003A6979 /* ConnectDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectDataView.m; sourceTree = "<group>"; };
-		B414889E1F9DC38B003A6979 /* AddDeviceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDeviceView.h; sourceTree = "<group>"; };
-		B414889F1F9DC38B003A6979 /* AddDeviceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDeviceView.m; sourceTree = "<group>"; };
-		B41488A11F9E013D003A6979 /* AddDeviceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDeviceCell.h; sourceTree = "<group>"; };
-		B41488A21F9E013D003A6979 /* AddDeviceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDeviceCell.m; sourceTree = "<group>"; };
-		B43853D01F68FBDE00894663 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
-		B43853D11F68FBDE00894663 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
-		B43853D31F68FBF100894663 /* RecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordView.h; sourceTree = "<group>"; };
-		B43853D41F68FBF100894663 /* RecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordView.m; sourceTree = "<group>"; };
-		B43853D61F68FE2B00894663 /* RecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordCell.h; sourceTree = "<group>"; };
-		B43853D71F68FE2B00894663 /* RecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordCell.m; sourceTree = "<group>"; };
-		B469B39B1F78CC4600E56CCB /* AddDeviceDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeviceDataView.h; sourceTree = "<group>"; };
-		B469B39C1F78CC4600E56CCB /* AddDeviceDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeviceDataView.m; sourceTree = "<group>"; };
-		B469B39F1F78CFA600E56CCB /* TRRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRequestTool.h; sourceTree = "<group>"; };
-		B469B3A01F78CFA600E56CCB /* TRRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRequestTool.m; sourceTree = "<group>"; };
-		B46E76D91F9D8A1800096BB8 /* AddOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddOrderViewController.h; sourceTree = "<group>"; };
-		B46E76DA1F9D8A1800096BB8 /* AddOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddOrderViewController.m; sourceTree = "<group>"; };
-		B46E76DC1F9D8A4000096BB8 /* AddOrderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddOrderView.h; sourceTree = "<group>"; };
-		B46E76DD1F9D8A4000096BB8 /* AddOrderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddOrderView.m; sourceTree = "<group>"; };
-		B48F46761F58F05800A05B77 /* CodeDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeDataView.h; sourceTree = "<group>"; };
-		B48F46771F58F05800A05B77 /* CodeDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeDataView.m; sourceTree = "<group>"; };
-		B49DCD631F987A500086EE67 /* RecordProCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordProCell.h; sourceTree = "<group>"; };
-		B49DCD641F987A500086EE67 /* RecordProCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordProCell.m; sourceTree = "<group>"; };
-		B4A061451F5799F7003DF71B /* MaintainOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaintainOrderViewController.h; sourceTree = "<group>"; };
-		B4A061461F5799F7003DF71B /* MaintainOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaintainOrderViewController.m; sourceTree = "<group>"; };
-		B4A061481F579A0D003DF71B /* OrderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderView.h; sourceTree = "<group>"; };
-		B4A061491F579A0D003DF71B /* OrderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderView.m; sourceTree = "<group>"; };
-		B4A0614B1F57A1D7003DF71B /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
-		B4A0614C1F57A1D7003DF71B /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
-		B4A0614F1F57B8BA003DF71B /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
-		B4A061501F57B8BA003DF71B /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
-		B4A061521F57D9A3003DF71B /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
-		B4A061531F57D9A3003DF71B /* OrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
-		B4A061551F57E64B003DF71B /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
-		B4A061561F57E64B003DF71B /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
-		B4A061591F57FAF9003DF71B /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
-		B4A0615A1F57FAF9003DF71B /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
-		B4A0615C1F57FB2A003DF71B /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
-		B4A0615D1F57FB2A003DF71B /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
-		B4BC9B201F71069000B76DA5 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
-		B4BC9B211F71069000B76DA5 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
-		B4BC9B231F7106BA00B76DA5 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
-		B4BC9B241F7106BA00B76DA5 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
-		B4E5CF221F90653A00B0A871 /* XHDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHDatePickerView.m; sourceTree = "<group>"; };
-		B4E5CF231F90653A00B0A871 /* NSDate+XHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XHExtension.m"; sourceTree = "<group>"; };
-		B4E5CF241F90653A00B0A871 /* XHDatePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XHDatePickerView.xib; sourceTree = "<group>"; };
-		B4E5CF251F90653A00B0A871 /* XHDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHDatePickerView.h; sourceTree = "<group>"; };
-		B4E5CF261F90653A00B0A871 /* NSDate+XHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+XHExtension.h"; sourceTree = "<group>"; };
-		B4E5CF2D1F909B0100B0A871 /* OrderRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderRecordCell.h; sourceTree = "<group>"; };
-		B4E5CF2E1F909B0100B0A871 /* OrderRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderRecordCell.m; sourceTree = "<group>"; };
 		B4F1C12A1D7512E400CD7B0C /* StopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopCell.h; sourceTree = "<group>"; };
 		B4F1C12B1D7512E400CD7B0C /* StopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopCell.m; sourceTree = "<group>"; };
 		CC2D3B0E0EB11CD188142490 /* Pods-GPSCllector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSCllector.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPSCllector/Pods-GPSCllector.release.xcconfig"; sourceTree = "<group>"; };
@@ -222,8 +145,6 @@
 				B4106EF21D712CB7008F1F31 /* AppDelegate.m */,
 				B4106F251D712DC1008F1F31 /* MainView */,
 				B4106F241D712DA4008F1F31 /* AddLine */,
-				B4A061441F5798E6003DF71B /* MaintainOrders */,
-				B469B39E1F78CF5E00E56CCB /* Tool */,
 				B4106EF71D712CB7008F1F31 /* Main.storyboard */,
 				B4106EFA1D712CB7008F1F31 /* Assets.xcassets */,
 				B4106EFC1D712CB7008F1F31 /* LaunchScreen.storyboard */,
@@ -284,127 +205,6 @@
 				B4F1C12B1D7512E400CD7B0C /* StopCell.m */,
 			);
 			name = MainView;
-			sourceTree = "<group>";
-		};
-		B43853CF1F68FBB700894663 /* Record */ = {
-			isa = PBXGroup;
-			children = (
-				B43853D01F68FBDE00894663 /* RecordViewController.h */,
-				B43853D11F68FBDE00894663 /* RecordViewController.m */,
-				B43853D31F68FBF100894663 /* RecordView.h */,
-				B43853D41F68FBF100894663 /* RecordView.m */,
-				B43853D61F68FE2B00894663 /* RecordCell.h */,
-				B43853D71F68FE2B00894663 /* RecordCell.m */,
-			);
-			name = Record;
-			sourceTree = "<group>";
-		};
-		B469B39E1F78CF5E00E56CCB /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				B469B3A21F78E09500E56CCB /* Http */,
-			);
-			name = Tool;
-			sourceTree = "<group>";
-		};
-		B469B3A21F78E09500E56CCB /* Http */ = {
-			isa = PBXGroup;
-			children = (
-				B469B39F1F78CFA600E56CCB /* TRRequestTool.h */,
-				B469B3A01F78CFA600E56CCB /* TRRequestTool.m */,
-			);
-			name = Http;
-			sourceTree = "<group>";
-		};
-		B46E76D81F9D89F100096BB8 /* AddOrders */ = {
-			isa = PBXGroup;
-			children = (
-				B46E76D91F9D8A1800096BB8 /* AddOrderViewController.h */,
-				B46E76DA1F9D8A1800096BB8 /* AddOrderViewController.m */,
-				B46E76DC1F9D8A4000096BB8 /* AddOrderView.h */,
-				B46E76DD1F9D8A4000096BB8 /* AddOrderView.m */,
-				B414889B1F9DC375003A6979 /* ConnectDataView.h */,
-				B414889C1F9DC375003A6979 /* ConnectDataView.m */,
-				B414889E1F9DC38B003A6979 /* AddDeviceView.h */,
-				B414889F1F9DC38B003A6979 /* AddDeviceView.m */,
-				B41488A11F9E013D003A6979 /* AddDeviceCell.h */,
-				B41488A21F9E013D003A6979 /* AddDeviceCell.m */,
-			);
-			name = AddOrders;
-			sourceTree = "<group>";
-		};
-		B4A061441F5798E6003DF71B /* MaintainOrders */ = {
-			isa = PBXGroup;
-			children = (
-				B4E5CF211F90652200B0A871 /* XHDatePicker */,
-				B4BC9B1F1F71066100B76DA5 /* Products */,
-				B43853CF1F68FBB700894663 /* Record */,
-				B4A061581F57F878003DF71B /* BarCode(条形码) */,
-				B4A0614E1F57B8AB003DF71B /* MD5 */,
-				B46E76D81F9D89F100096BB8 /* AddOrders */,
-				B4A061451F5799F7003DF71B /* MaintainOrderViewController.h */,
-				B4A061461F5799F7003DF71B /* MaintainOrderViewController.m */,
-				B4A061481F579A0D003DF71B /* OrderView.h */,
-				B4A061491F579A0D003DF71B /* OrderView.m */,
-				B4A0614B1F57A1D7003DF71B /* LoginView.h */,
-				B4A0614C1F57A1D7003DF71B /* LoginView.m */,
-				B4A061521F57D9A3003DF71B /* OrderCell.h */,
-				B4A061531F57D9A3003DF71B /* OrderCell.m */,
-				B4E5CF2D1F909B0100B0A871 /* OrderRecordCell.h */,
-				B4E5CF2E1F909B0100B0A871 /* OrderRecordCell.m */,
-				B4A061551F57E64B003DF71B /* UILabel+Extension.h */,
-				B4A061561F57E64B003DF71B /* UILabel+Extension.m */,
-				B48F46761F58F05800A05B77 /* CodeDataView.h */,
-				B48F46771F58F05800A05B77 /* CodeDataView.m */,
-				B469B39B1F78CC4600E56CCB /* AddDeviceDataView.h */,
-				B469B39C1F78CC4600E56CCB /* AddDeviceDataView.m */,
-			);
-			name = MaintainOrders;
-			sourceTree = "<group>";
-		};
-		B4A0614E1F57B8AB003DF71B /* MD5 */ = {
-			isa = PBXGroup;
-			children = (
-				B4A0614F1F57B8BA003DF71B /* NSString+Hashing.h */,
-				B4A061501F57B8BA003DF71B /* NSString+Hashing.m */,
-			);
-			name = MD5;
-			sourceTree = "<group>";
-		};
-		B4A061581F57F878003DF71B /* BarCode(条形码) */ = {
-			isa = PBXGroup;
-			children = (
-				B4A061591F57FAF9003DF71B /* RedView.h */,
-				B4A0615A1F57FAF9003DF71B /* RedView.m */,
-				B4A0615C1F57FB2A003DF71B /* CodeViewController.h */,
-				B4A0615D1F57FB2A003DF71B /* CodeViewController.m */,
-			);
-			name = "BarCode(条形码)";
-			sourceTree = "<group>";
-		};
-		B4BC9B1F1F71066100B76DA5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B4BC9B201F71069000B76DA5 /* ProductsViewController.h */,
-				B4BC9B211F71069000B76DA5 /* ProductsViewController.m */,
-				B4BC9B231F7106BA00B76DA5 /* ProductCell.h */,
-				B4BC9B241F7106BA00B76DA5 /* ProductCell.m */,
-				B49DCD631F987A500086EE67 /* RecordProCell.h */,
-				B49DCD641F987A500086EE67 /* RecordProCell.m */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B4E5CF211F90652200B0A871 /* XHDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				B4E5CF261F90653A00B0A871 /* NSDate+XHExtension.h */,
-				B4E5CF231F90653A00B0A871 /* NSDate+XHExtension.m */,
-				B4E5CF251F90653A00B0A871 /* XHDatePickerView.h */,
-				B4E5CF221F90653A00B0A871 /* XHDatePickerView.m */,
-				B4E5CF241F90653A00B0A871 /* XHDatePickerView.xib */,
-			);
-			name = XHDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -514,7 +314,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E5CF2B1F90856F00B0A871 /* XHDatePickerView.xib in Resources */,
 				B4106EFE1D712CB7008F1F31 /* LaunchScreen.storyboard in Resources */,
 				B4106EFB1D712CB7008F1F31 /* Assets.xcassets in Resources */,
 				B4106EF91D712CB7008F1F31 /* Main.storyboard in Resources */,
@@ -597,38 +396,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4106F2F1D717288008F1F31 /* AddLineView.m in Sources */,
-				B4A061541F57D9A3003DF71B /* OrderCell.m in Sources */,
-				B41488A31F9E013D003A6979 /* AddDeviceCell.m in Sources */,
-				B43853D81F68FE2B00894663 /* RecordCell.m in Sources */,
-				B4A061571F57E64B003DF71B /* UILabel+Extension.m in Sources */,
 				B4F1C12C1D7512E400CD7B0C /* StopCell.m in Sources */,
 				B4106F281D712E72008F1F31 /* MainView.m in Sources */,
-				B43853D51F68FBF100894663 /* RecordView.m in Sources */,
-				B414889D1F9DC375003A6979 /* ConnectDataView.m in Sources */,
-				B46E76DB1F9D8A1800096BB8 /* AddOrderViewController.m in Sources */,
-				B4E5CF2F1F909B0100B0A871 /* OrderRecordCell.m in Sources */,
-				B469B3A11F78CFA600E56CCB /* TRRequestTool.m in Sources */,
-				B4BC9B251F7106BA00B76DA5 /* ProductCell.m in Sources */,
 				B4106EF61D712CB7008F1F31 /* ViewController.m in Sources */,
 				B4106EF31D712CB7008F1F31 /* AppDelegate.m in Sources */,
-				B4A0614D1F57A1D7003DF71B /* LoginView.m in Sources */,
-				B4A0615B1F57FAF9003DF71B /* RedView.m in Sources */,
-				B4A0615E1F57FB2A003DF71B /* CodeViewController.m in Sources */,
-				B469B39D1F78CC4600E56CCB /* AddDeviceDataView.m in Sources */,
-				B48F46781F58F05800A05B77 /* CodeDataView.m in Sources */,
-				B4A061511F57B8BA003DF71B /* NSString+Hashing.m in Sources */,
-				B49DCD651F987A500086EE67 /* RecordProCell.m in Sources */,
 				B4106F231D712D0E008F1F31 /* AddLineViewController.m in Sources */,
-				B4E5CF2A1F90853800B0A871 /* XHDatePickerView.m in Sources */,
-				B4BC9B221F71069000B76DA5 /* ProductsViewController.m in Sources */,
 				B4106F2B1D7130D9008F1F31 /* MainTextField.m in Sources */,
-				B4E5CF271F90850F00B0A871 /* MaintainOrderViewController.m in Sources */,
-				B43853D21F68FBDE00894663 /* RecordViewController.m in Sources */,
 				B4106EF01D712CB7008F1F31 /* main.m in Sources */,
-				B46E76DE1F9D8A4000096BB8 /* AddOrderView.m in Sources */,
-				B4E5CF2C1F90857900B0A871 /* NSDate+XHExtension.m in Sources */,
-				B41488A01F9DC38B003A6979 /* AddDeviceView.m in Sources */,
-				B4A0614A1F579A0D003DF71B /* OrderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
